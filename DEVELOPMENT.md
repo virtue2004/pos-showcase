@@ -1,5 +1,9 @@
 # Development journal
 
+## Version 0.6 — flexible stock receiving
+
+Made opening quantity optional. Purchases now work without supplier records and offer supplier and product suggestions. New product names can be received with quantity, unit cost, and selling price in a single transaction. After stock is saved, unfamiliar supplier names prompt an optional contact-details form. Existing catalog prices and transaction history are preserved.
+
 ## Version 0.5.1 — smoother product entry
 
 Fixed a malformed navigation icon and removed the misleading loading cursor from unavailable products. Product search now updates results without rebuilding the checkout input or cart. New products receive suggested company-prefixed SKUs and internal barcodes, with an opening-stock field saved in the same transaction. Numeric zeros clear on focus and return if left empty.

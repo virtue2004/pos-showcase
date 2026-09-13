@@ -2,7 +2,7 @@
 
 A custom retail workspace built with Google Apps Script and Google Sheets, designed around clear navigation, fast checkout, and straightforward stock management for one company and one store.
 
-**Status: version 0.5.1 — password sign-in validation release.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
+**Status: version 0.6 — flexible stock receiving.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
 
 ## A view of the workspace
 
@@ -19,7 +19,7 @@ The screenshots below use fictional products, customers, and transactions from t
 ## What is implemented
 
 - Product catalog with generated company-prefixed SKUs and barcodes, opening stock, categories, and reorder levels.
-- One stock balance per product, supplier receiving, and adjustments.
+- Flexible receiving with optional suppliers, product suggestions, and automatic creation of new products with stock and selling prices.
 - Checkout with discounts, tax, recorded cash/card/transfer or split payments, and printable receipts.
 - USB/Bluetooth keyboard-scanner input and Code 128 product label generation.
 - Password sign-in, temporary-password changes, session expiry, account lockouts, and Owner-managed user roles.
@@ -34,8 +34,8 @@ Camera scanning is optional and browser-dependent. Card and bank-transfer transa
 
 ## Validation so far
 
-- 33 business-rule and simulated Google-adapter tests passed.
-- 11 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
+- 34 business-rule and simulated Google-adapter tests passed.
+- 12 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
 - Desktop and mobile screenshots reviewed using fictional demo data.
 
 These checks do not replace live Google, scanner, printer, permission, or load testing.
