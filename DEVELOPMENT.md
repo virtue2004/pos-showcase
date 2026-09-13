@@ -1,17 +1,13 @@
-﻿# Development journal
+# Development journal
 
-## Version 0.2 — retail workflows and multiple branches
+## Version 0.3 — a simpler retail POS
 
-Implemented a custom responsive interface with an organization overview, checkout, products, inventory, purchases, customers, suppliers, registers, reports, branches, team roles, and settings.
+Focused the application on one company and one store. Simplified setup, navigation, inventory, checkout, receipts, reports, CSV exports, and staff forms. Removed location management, internal stock transfers, and additional-company provisioning tools. Existing transaction history is preserved.
 
-Added exact barcode and SKU lookup for keyboard-style scanners, internally generated product codes, and printable Code 128 labels. Camera scanning is an optional enhancement on compatible browsers.
+The POS retains barcode checkout, printable Code 128 labels, purchases, stock adjustments, cash/card/bank-transfer payment recording, receipts, full returns, registers, customers, suppliers, and reports. Desktop, tablet, and phone layouts remain supported.
 
-Connected the workflows to server-side validation and a transaction journal. Automated checks cover branch-specific stock, duplicate request protection, refunds, cash reconciliation, access rules, and independent organization setup. Browser tests found a small-screen overflow issue that was corrected; a fixed mobile order shortcut now keeps the cart easy to reach.
-
-The local suite currently passes 25 domain/adapter tests and 6 browser tests. The application source was accepted by Apps Script and an owner-only web deployment was created. The screenshots in this repository use fictional demo data. Live Google authorization, persistence, and physical devices still need acceptance testing, and the release remains owner-only during that validation.
+Backend checks cover transaction integrity, permissions, retry protection, and compatibility with older records. Browser checks cover onboarding, navigation, checkout, returns, stock adjustments, barcode rendering, and responsive layouts. Screenshots use fictional demo data only. Live Google persistence, staff sign-in, and physical hardware still require acceptance testing.
 
 ## Foundation
 
-Selected Google Apps Script for the server and custom HTML/CSS/JavaScript UI, replacing the initial AppSheet direction to provide more interface design control. Google Sheets is the data platform.
-
-Established separate private source and public showcase repositories. Public updates distinguish verified progress from planned functionality and never mirror private source history.
+Google Apps Script serves a custom HTML/CSS/JavaScript interface backed by Google Sheets. Application source is maintained in a private repository; this public showcase contains curated progress and sanitized previews.
