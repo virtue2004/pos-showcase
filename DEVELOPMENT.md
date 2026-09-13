@@ -1,5 +1,11 @@
 # Development journal
 
+## Version 0.5 — password accounts
+
+Replaced the planned Google OAuth approach with Owner-managed email/password accounts. A private Users sheet stores roles and salted password hashes. Added first-login password changes, login-attempt limits, expiring sessions, sign-out, and password resets that revoke access. Existing staff records migrate without rewriting sales history.
+
+Automated checks exercise the Apps Script adapter and full browser login flow with fictional data. The deployed login page was verified in a signed-out browser. Authenticated Google-hosted acceptance testing remains necessary.
+
 ## Version 0.4 — focused checkout and receipts
 
 Added Owner-created sales rep and account manager roles in the interface. Sales reps start at checkout, with protected catalog prices and restricted navigation. Search regains focus after accepted scans or product-name, SKU, and ID entry. Receipts retain sale details and attendant names, offer 58/80 mm layouts, download as standalone HTML, and print through the browser.
