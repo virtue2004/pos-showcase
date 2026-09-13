@@ -1,5 +1,11 @@
 # Development journal
 
+## Version 0.5.1 — smoother product entry
+
+Fixed a malformed navigation icon and removed the misleading loading cursor from unavailable products. Product search now updates results without rebuilding the checkout input or cart. New products receive suggested company-prefixed SKUs and internal barcodes, with an opening-stock field saved in the same transaction. Numeric zeros clear on focus and return if left empty.
+
+Regression checks cover SVG console errors, stable search, generated codes, stock availability, and duplicate-safe opening quantities.
+
 ## Version 0.5 — password accounts
 
 Replaced the planned Google OAuth approach with Owner-managed email/password accounts. A private Users sheet stores roles and salted password hashes. Added first-login password changes, login-attempt limits, expiring sessions, sign-out, and password resets that revoke access. Existing staff records migrate without rewriting sales history.
