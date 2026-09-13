@@ -2,7 +2,7 @@
 
 A custom retail workspace built with Google Apps Script and Google Sheets, designed around clear navigation, fast checkout, and straightforward stock management for one company and one store.
 
-**Status: version 0.3 — owner-only validation release.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
+**Status: version 0.4 — owner-only validation release.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
 
 ## A view of the workspace
 
@@ -12,23 +12,27 @@ The screenshots below use fictional products, customers, and transactions from t
 
 ![Responsive checkout with product search, category navigation, and an order panel](media/checkout.png)
 
+![Receipt preview with cash received, change, download, and print options](media/receipt.png)
+
 ## What is implemented
 
 - Product catalog with categories, SKUs, barcodes, and reorder levels.
 - One stock balance per product, supplier receiving, and adjustments.
 - Checkout with discounts, tax, recorded cash/card/transfer or split payments, and printable receipts.
 - USB/Bluetooth keyboard-scanner input and Code 128 product label generation.
+- Continuous scan/search focus, product ID and name entry, and stored receipt details.
+- 58/80 mm receipt layouts, downloadable HTML receipts, and browser Print / Save as PDF.
 - Full returns, register opening/closing, and cash reconciliation.
 - Customers, suppliers, date-filtered reports, and CSV exports.
-- Server-side owner/manager/cashier role checks and an audit history.
+- Owner, account manager, and sales rep permissions, with a focused sales-rep interface and protected prices.
 - Responsive desktop, tablet, and phone layouts, including a mobile order shortcut.
 
-Camera scanning is optional and browser-dependent. Card and bank-transfer transactions are recorded after external confirmation; this release does not charge a payment gateway. Staff records do not automatically enable access to the owner-only Google deployment.
+Camera scanning is optional and browser-dependent. Card and bank-transfer transactions are recorded after external confirmation; this release does not charge a payment gateway. Personal Gmail staff sign-in requires OAuth configuration and further integration; the current Google deployment remains owner-only.
 
 ## Validation so far
 
-- 26 business-rule and simulated Google-adapter tests passed.
-- 7 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
+- 27 business-rule and simulated Google-adapter tests passed.
+- 9 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
 - Desktop and mobile screenshots reviewed using fictional demo data.
 
 These checks do not replace live Google, scanner, printer, permission, or load testing.
