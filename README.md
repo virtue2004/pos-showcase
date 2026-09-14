@@ -2,7 +2,7 @@
 
 A custom retail workspace built with Google Apps Script and Google Sheets, designed around clear navigation, fast checkout, and straightforward stock management for one company and one store.
 
-**Status: version 0.9 - credit sales and repayments.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
+**Status: version 0.9.1 - compact checkout.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
 
 ## A view of the workspace
 
@@ -35,7 +35,7 @@ Camera scanning is optional and browser-dependent. Card and bank-transfer transa
 ## Validation so far
 
 - 40 business-rule and simulated Google-adapter tests passed.
-- 15 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
+- 16 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
 - Desktop and mobile screenshots reviewed using fictional demo data.
 
 These checks do not replace live Google, scanner, printer, permission, or load testing.
@@ -61,3 +61,5 @@ Checkout now supports customer name suggestions and automatic customer creation,
 Version 0.8 moves payment entry into a dedicated checkout window, adds deletion from active catalog/contact lists, and supports Owner-only transaction detail corrections with an audit trail. An Owner stock page groups low and unavailable products and shows previous supplier contacts.
 
 Credit sales support partial or no payment with mandatory customer name and phone. Debtors groups outstanding invoices by customer, accepts incremental repayments, and updates receipt balances. Split payments show live paid, outstanding, and change amounts.
+
+Checkout now uses compact desktop columns with visible payment totals. Credit completion is disabled until the required customer details are valid.

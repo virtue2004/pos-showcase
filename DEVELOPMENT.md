@@ -1,5 +1,9 @@
 # Development journal
 
+## Version 0.9.1 - compact checkout
+
+Arranged customer, price, and payment controls in desktop columns. Outstanding balances automatically use customer debt, with completion disabled until a valid name and phone are present.
+
 ## Version 0.9 - credit sales and repayments
 
 Added live split-payment totals, zero-opening-cash guidance, credit checkout with required customer details, grouped debtor invoices, and auditable repayments. Receipts display cumulative payments and balances; cash repayments reconcile to the collecting register.
