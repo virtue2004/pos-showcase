@@ -1,5 +1,9 @@
 # Development journal
 
+## Version 0.9 - credit sales and repayments
+
+Added live split-payment totals, zero-opening-cash guidance, credit checkout with required customer details, grouped debtor invoices, and auditable repayments. Receipts display cumulative payments and balances; cash repayments reconcile to the collecting register.
+
 ## Version 0.8 - focused checkout and stock follow-up
 
 Separated item entry from payment entry with a larger checkout dialog and a return-to-products action. Added catalog/contact deletion while preserving historical records, Owner-only transaction detail corrections, and grouped stock alerts with supplier contact dropdowns.
