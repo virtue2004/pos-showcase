@@ -1,5 +1,9 @@
 # Development journal
 
+## Version 0.10 - services and sales filters
+
+Added a service catalog and mixed goods/service checkout with historical line types. Services do not affect stock. Sales filters combine dates, item types and payment status. Cash received now starts blank; balance and change use larger, distinct colours.
+
 ## Version 0.9.1 - compact checkout
 
 Arranged customer, price, and payment controls in desktop columns. Outstanding balances automatically use customer debt, with completion disabled until a valid name and phone are present.
