@@ -1,5 +1,9 @@
 # Development journal
 
+## Version 0.11 - PDF receipts and register controls
+
+Added local PDF receipt downloads with a separate Print action, removed duplicate cash wording, and highlighted outstanding invoices. Product selection now requires a register and respects stock reserved in the current cart. Register history includes expected and counted cash with role-based visibility.
+
 ## Version 0.10 - services and sales filters
 
 Added a service catalog and mixed goods/service checkout with historical line types. Services do not affect stock. Sales filters combine dates, item types and payment status. Cash received now starts blank; balance and change use larger, distinct colours.

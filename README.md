@@ -2,7 +2,7 @@
 
 A custom retail workspace built with Google Apps Script and Google Sheets, designed around clear navigation, fast checkout, and straightforward stock management for one company and one store.
 
-**Status: version 0.10 - services and sales filters.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
+**Status: version 0.11 - PDF receipts and register controls.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
 
 ## A view of the workspace
 
@@ -34,8 +34,8 @@ Camera scanning is optional and browser-dependent. Card and bank-transfer transa
 
 ## Validation so far
 
-- 41 business-rule and simulated Google-adapter tests passed.
-- 17 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
+- 42 business-rule and simulated Google-adapter tests passed.
+- 19 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
 - Desktop and mobile screenshots reviewed using fictional demo data.
 
 These checks do not replace live Google, scanner, printer, permission, or load testing.
@@ -65,3 +65,5 @@ Credit sales support partial or no payment with mandatory customer name and phon
 Checkout now uses compact desktop columns with visible payment totals. Credit completion is disabled until the required customer details are valid.
 
 Services can be sold individually or with goods without inventory tracking. Sales history supports item-type, date, and payment-status filters. Cash entry is manual, with distinct balance and change highlights.
+
+Receipts download as PDF, stock cards reflect cart quantities, and register opening requires an explicit cash amount. Owners see register history across attendants while each attendant sees only their own sessions.
