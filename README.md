@@ -2,7 +2,7 @@
 
 A custom retail workspace built with Google Apps Script and Google Sheets, designed around clear navigation, fast checkout, and straightforward stock management for one company and one store.
 
-**Status: version 0.6 — flexible stock receiving.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
+**Status: version 0.7 - customers, bargained sales, and reminders.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
 
 ## A view of the workspace
 
@@ -34,8 +34,8 @@ Camera scanning is optional and browser-dependent. Card and bank-transfer transa
 
 ## Validation so far
 
-- 34 business-rule and simulated Google-adapter tests passed.
-- 12 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
+- 36 business-rule and simulated Google-adapter tests passed.
+- 13 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
 - Desktop and mobile screenshots reviewed using fictional demo data.
 
 These checks do not replace live Google, scanner, printer, permission, or load testing.
@@ -55,3 +55,5 @@ Offline checkout, native installation, partial returns, loyalty, supplier payabl
 This repository presents curated development progress and sanitized UI previews. Application source is maintained privately. Credentials, operational identifiers, private implementation files, and real customer records are excluded.
 
 Built by [virtue2004](https://github.com/virtue2004).
+
+Checkout now supports customer name suggestions and automatic customer creation, bargained final totals, and management notifications for low stock and large reductions. The Owner can configure the reduction threshold.

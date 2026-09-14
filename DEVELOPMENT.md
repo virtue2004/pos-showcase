@@ -1,5 +1,9 @@
 # Development journal
 
+## Version 0.7 - customer checkout and reminders
+
+Added customer name suggestions and atomic customer creation during sales. Attendants can record bargained final totals while preserving catalog prices. Management sees low-stock reminders and historical large-reduction alerts with a configurable threshold. Receipts and refunds retain the actual amount charged.
+
 ## Version 0.6 — flexible stock receiving
 
 Made opening quantity optional. Purchases now work without supplier records and offer supplier and product suggestions. New product names can be received with quantity, unit cost, and selling price in a single transaction. After stock is saved, unfamiliar supplier names prompt an optional contact-details form. Existing catalog prices and transaction history are preserved.
