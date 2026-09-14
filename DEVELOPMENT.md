@@ -1,5 +1,9 @@
 # Development journal
 
+## Version 0.13 - historical returns, exports and staff access
+
+Sales history provides full returns against the original invoice with a required reason, plus a company-branded PDF of the filtered date period. New transactions preserve the operator name, permanent login ID and role. Owner controls support activation, deactivation, role changes and deletion with access revocation and preserved historical records. The password minimum is eight characters.
+
 ## Version 0.12 - repayment entry and stock reminders
 
 Repayments start blank with a live remaining-balance preview. Red stock and unread-notification counters remain visible on small screens. Notification reads are stored per management user, while stock reminders remain until replenishment. Inventory valuation covers all available goods regardless of search. Historical invoice prices remain preserved.
