@@ -1,5 +1,10 @@
 # Development journal
 
+## Version 0.12 - repayment entry and stock reminders
+
+Repayments start blank with a live remaining-balance preview. Red stock and unread-notification counters remain visible on small screens. Notification reads are stored per management user, while stock reminders remain until replenishment. Inventory valuation covers all available goods regardless of search. Historical invoice prices remain preserved.
+
+
 ## Version 0.11 - PDF receipts and register controls
 
 Added local PDF receipt downloads with a separate Print action, removed duplicate cash wording, and highlighted outstanding invoices. Product selection now requires a register and respects stock reserved in the current cart. Register history includes expected and counted cash with role-based visibility.
