@@ -2,7 +2,7 @@
 
 A custom retail workspace built with Google Apps Script and Google Sheets, designed around clear navigation, fast checkout, and straightforward stock management for one company and one store.
 
-**Status: version 0.7 - customers, bargained sales, and reminders.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
+**Status: version 0.8 - focused checkout and stock follow-up.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
 
 ## A view of the workspace
 
@@ -34,8 +34,8 @@ Camera scanning is optional and browser-dependent. Card and bank-transfer transa
 
 ## Validation so far
 
-- 36 business-rule and simulated Google-adapter tests passed.
-- 13 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
+- 38 business-rule and simulated Google-adapter tests passed.
+- 14 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
 - Desktop and mobile screenshots reviewed using fictional demo data.
 
 These checks do not replace live Google, scanner, printer, permission, or load testing.
@@ -57,3 +57,5 @@ This repository presents curated development progress and sanitized UI previews.
 Built by [virtue2004](https://github.com/virtue2004).
 
 Checkout now supports customer name suggestions and automatic customer creation, bargained final totals, and management notifications for low stock and large reductions. The Owner can configure the reduction threshold.
+
+Version 0.8 moves payment entry into a dedicated checkout window, adds deletion from active catalog/contact lists, and supports Owner-only transaction detail corrections with an audit trail. An Owner stock page groups low and unavailable products and shows previous supplier contacts.

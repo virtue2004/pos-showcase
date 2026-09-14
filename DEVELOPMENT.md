@@ -1,5 +1,9 @@
 # Development journal
 
+## Version 0.8 - focused checkout and stock follow-up
+
+Separated item entry from payment entry with a larger checkout dialog and a return-to-products action. Added catalog/contact deletion while preserving historical records, Owner-only transaction detail corrections, and grouped stock alerts with supplier contact dropdowns.
+
 ## Version 0.7 - customer checkout and reminders
 
 Added customer name suggestions and atomic customer creation during sales. Attendants can record bargained final totals while preserving catalog prices. Management sees low-stock reminders and historical large-reduction alerts with a configurable threshold. Receipts and refunds retain the actual amount charged.
