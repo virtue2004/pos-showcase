@@ -2,7 +2,7 @@
 
 A custom retail workspace built with Google Apps Script and Google Sheets, designed around clear navigation, fast checkout, and straightforward stock management for one company and one store.
 
-**Status: version 0.14 - catalog safeguards, analytics and bulk labels.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
+**Status: version 0.15 - profit diagnostics and a staged SQLite migration.** Core workflows are implemented and tested locally. Live Google authorization, staff sign-in, device compatibility, and workload acceptance checks remain before production rollout.
 
 ## A view of the workspace
 
@@ -35,6 +35,7 @@ Camera scanning is optional and browser-dependent. Card and bank-transfer transa
 ## Validation so far
 
 - 47 business-rule and simulated Google-adapter tests passed.
+- Seven SQLite migration/security checks and three SQLite browser workflows passed locally. Production migration is pending hosting and real-data reconciliation.
 - 26 browser tests passed, including barcode checkout, returns, stock adjustments, label rendering, onboarding, response-loss retries, and responsive layout checks.
 - Desktop and mobile screenshots reviewed using fictional demo data.
 

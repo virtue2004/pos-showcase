@@ -1,5 +1,9 @@
 # Development journal
 
+## Version 0.15 - staged SQLite backend and profit diagnostics
+
+Added a local SQLite migration candidate with one database per company, retained business rules, staff authentication, transactional imports, reconciliation checks and backup tooling. Local tests exercise accounting, session revocation, company isolation and HTTP access boundaries. A profit breakdown explains historical costs and return adjustments. The live system still uses Google Sheets: online hosting, real-company migration and production acceptance are not complete.
+
 ## Version 0.14 - catalog identifiers, analytics and bulk labels
 
 Product codes share server-validated reservations across IDs, SKUs and barcodes, including retired codes. SKU and barcode stay synchronized. Overview adds date, staff, item-type and payment-status filters with KPI comparisons and a charted PDF. Bulk label jobs support per-product quantities and printed cutting guides. Identifier tests include a 5,000-product catalog.
