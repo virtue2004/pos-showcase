@@ -1,5 +1,9 @@
 # Development journal
 
+## Version 0.14 - catalog identifiers, analytics and bulk labels
+
+Product codes share server-validated reservations across IDs, SKUs and barcodes, including retired codes. SKU and barcode stay synchronized. Overview adds date, staff, item-type and payment-status filters with KPI comparisons and a charted PDF. Bulk label jobs support per-product quantities and printed cutting guides. Identifier tests include a 5,000-product catalog.
+
 ## Version 0.13 - historical returns, exports and staff access
 
 Sales history provides full returns against the original invoice with a required reason, plus a company-branded PDF of the filtered date period. New transactions preserve the operator name, permanent login ID and role. Owner controls support activation, deactivation, role changes and deletion with access revocation and preserved historical records. The password minimum is eight characters.
