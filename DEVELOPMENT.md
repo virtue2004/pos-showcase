@@ -1,5 +1,11 @@
 # Development journal
 
+## PostgreSQL migration candidate
+
+The migration target is now a separate company-owned Supabase project for each deployment. A staged PostgreSQL backend stores readable relational records, preserves historical prices and audit history, and imports data with reconciliation and rollback checks. Staff access remains enforced by the server, using a restricted database login.
+
+Local checks cover company isolation, simultaneous checkout of the last item, duplicate-request protection, repayments, returns and staff access revocation. Browser checks cover checkout, receipts, reports, labels and cashier access. The live system remains on Google Sheets; real-company import, hosted acceptance and recovery rehearsal are still required before cutover.
+
 ## Version 0.15 - staged SQLite backend and profit diagnostics
 
 Added a local SQLite migration candidate with one database per company, retained business rules, staff authentication, transactional imports, reconciliation checks and backup tooling. Local tests exercise accounting, session revocation, company isolation and HTTP access boundaries. A profit breakdown explains historical costs and return adjustments. The live system still uses Google Sheets: online hosting, real-company migration and production acceptance are not complete.
