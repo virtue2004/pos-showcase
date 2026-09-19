@@ -1,5 +1,9 @@
 # Development journal
 
+## Personal Supabase prototype
+
+The first private workbook copy has been imported into a dedicated Supabase database and reconciled against the source. The localhost application connects through a restricted database login, with anonymous data access denied. The original Sheets deployment remains unchanged. Hands-on sign-in and acceptance testing of the imported prototype are next.
+
 ## PostgreSQL migration candidate
 
 The migration target is now a separate company-owned Supabase project for each deployment. A staged PostgreSQL backend stores readable relational records, preserves historical prices and audit history, and imports data with reconciliation and rollback checks. Staff access remains enforced by the server, using a restricted database login.
