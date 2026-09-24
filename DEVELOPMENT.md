@@ -1,5 +1,10 @@
 # Development journal
 
+## CSV imports and clearer barcode batches
+
+Added Owner-only CSV templates and imports for products, services, customers and suppliers. Server-side matching avoids duplicate records, updates supplied values, preserves blank fields and reports conflicts. Per-record reports distinguish creation, updates, unchanged records and errors. Opening stock is applied only to new goods; interrupted requests can resume safely. Barcode batches now offer checkbox selection and separate quantities per product. Local browser and PostgreSQL checks cover these workflows.
+
+
 ## Personal Supabase prototype
 
 The first private workbook copy has been imported into a dedicated Supabase database and reconciled against the source. The localhost application connects through a restricted database login, with anonymous data access denied. The original Sheets deployment remains unchanged. Hands-on sign-in and acceptance testing of the imported prototype are next.
