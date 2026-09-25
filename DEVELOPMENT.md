@@ -1,5 +1,9 @@
 # Development journal
 
+## Barcode PDFs and staff receipt privacy
+
+Barcode batches can now download as multipage A4 PDFs with per-product quantities and cutting guides. Product entry accepts package-barcode scans and keeps SKU synchronized; catalog and inventory search support consecutive scanner inputs. Permanent company-prefixed staff IDs replace operator names and emails on customer receipts. Attendants see their own Sales history, while authorized management retains the full view and shared debt collection remains available. Automated browser and database checks cover these changes; physical scanner and printer acceptance remains necessary.
+
 ## CSV imports and clearer barcode batches
 
 Added Owner-only CSV templates and imports for products, services, customers and suppliers. Server-side matching avoids duplicate records, updates supplied values, preserves blank fields and reports conflicts. Per-record reports distinguish creation, updates, unchanged records and errors. Opening stock is applied only to new goods; interrupted requests can resume safely. Barcode batches now offer checkbox selection and separate quantities per product. Local browser and PostgreSQL checks cover these workflows.
