@@ -1,5 +1,11 @@
 # Development journal
 
+## Monthly Owner statements
+
+The PostgreSQL prototype now includes Owner-only monthly email settings and report previews. Statements cover sales, gross profit, collections, inventory, outstanding debts, stock reminders and a twelve-month sales chart, with detailed CSV attachments. Reports preserve historical month-end balances.
+
+Scheduling includes persistent delivery status and duplicate-retry protection. Database restores pause automatic emails for recipient review. Local accounting, access-control, concurrency and mobile UI checks passed. Live sending still requires each company's email provider configuration and a running server or hosted scheduler; inbox delivery has not yet been validated.
+
 ## Mobile scanning and encrypted company backups
 
 Added continuous browser-camera scanning with a bundled retail barcode decoder, duplicate-scan protection, stock checks and camera cleanup. Owner accounts can export an encrypted complete company backup, preview a restore, download a recovery copy and replace the destination database atomically. Staff IDs, accounts and transaction history are preserved while live sessions are revoked. Database deletion is guarded for Owner restore transactions. Fictional-data tests cover camera decoding, cross-database restore, continued sales, permissions and rollback. Actual phone/camera and client-hosting acceptance remain necessary.
