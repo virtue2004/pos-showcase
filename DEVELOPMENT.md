@@ -1,5 +1,9 @@
 # Development journal
 
+## Mobile scanning and encrypted company backups
+
+Added continuous browser-camera scanning with a bundled retail barcode decoder, duplicate-scan protection, stock checks and camera cleanup. Owner accounts can export an encrypted complete company backup, preview a restore, download a recovery copy and replace the destination database atomically. Staff IDs, accounts and transaction history are preserved while live sessions are revoked. Database deletion is guarded for Owner restore transactions. Fictional-data tests cover camera decoding, cross-database restore, continued sales, permissions and rollback. Actual phone/camera and client-hosting acceptance remain necessary.
+
 ## Barcode PDFs and staff receipt privacy
 
 Barcode batches can now download as multipage A4 PDFs with per-product quantities and cutting guides. Product entry accepts package-barcode scans and keeps SKU synchronized; catalog and inventory search support consecutive scanner inputs. Permanent company-prefixed staff IDs replace operator names and emails on customer receipts. Attendants see their own Sales history, while authorized management retains the full view and shared debt collection remains available. Automated browser and database checks cover these changes; physical scanner and printer acceptance remains necessary.
