@@ -1,5 +1,11 @@
 # Development journal
 
+## Clearer checkout and receipt tracking
+
+Product entry now distinguishes selling price from purchase cost and visibly confirms opening quantities. Checkout focuses payment entry and explains the customer details required for credit. Receipts show the amount received before change and include a scannable invoice barcode. Sales history retains original invoice totals and provides a separate linked returns view.
+
+Fictional PostgreSQL browser checks cover opening stock, later deliveries, payment guidance, barcode decoding and sale lookup, and return reconciliation. Receipt PDFs were reviewed at both supported paper widths. Gross-profit explanations distinguish sales excluding tax from actual tax; operating-expense net profit is not yet calculated.
+
 ## Partial customer returns
 
 Owners and account managers can return selected quantities from a historical sale, record a reason, and distinguish resellable goods from damaged goods. Separate return records preserve the original invoice and prevent quantities from being returned twice. Credit balances, cash refunds, stock valuation, receipts, sales analysis and monthly statements reconcile each return.
