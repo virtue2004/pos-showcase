@@ -1,5 +1,9 @@
 # Development journal
 
+## Bargain visibility
+
+Checkout now gives a non-blocking warning when a bargain exceeds the configured reduction threshold. Every completed bargain below the normal total appears in management notifications, with operator, customer and payment context; larger reductions are highlighted. Receipt barcodes remain available without customer-facing scanning instructions. Domain and browser checks cover notification visibility, warning behavior and credit balances.
+
 ## Clearer checkout and receipt tracking
 
 Product entry now distinguishes selling price from purchase cost and visibly confirms opening quantities. Checkout focuses payment entry and explains the customer details required for credit. Receipts show the amount received before change and include a scannable invoice barcode. Sales history retains original invoice totals and provides a separate linked returns view.
