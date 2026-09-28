@@ -49,7 +49,7 @@ These checks do not replace live Google, scanner, printer, permission, or load t
 - Measure realistic checkout traffic and validate backup/recovery procedures.
 - Expand capabilities based on pilot feedback, including payment integrations and additional retail workflows.
 
-Offline checkout, native installation, partial returns, loyalty, supplier payables, and expiry/serial tracking are not part of this release.
+Offline checkout, native installation, loyalty, supplier payables, and expiry/serial tracking are not part of this release.
 
 ## About this repository
 

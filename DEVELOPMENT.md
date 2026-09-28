@@ -1,5 +1,11 @@
 # Development journal
 
+## Partial customer returns
+
+Owners and account managers can return selected quantities from a historical sale, record a reason, and distinguish resellable goods from damaged goods. Separate return records preserve the original invoice and prevent quantities from being returned twice. Credit balances, cash refunds, stock valuation, receipts, sales analysis and monthly statements reconcile each return.
+
+Fictional-data checks cover repeated returns, credit adjustments, tax/discount rounding, permissions, mobile workflows and receipt PDF rendering. The database upgrade preserves historical full returns. Card and bank refunds remain externally executed payments recorded by the POS.
+
 ## Monthly Owner statements
 
 The PostgreSQL prototype now includes Owner-only monthly email settings and report previews. Statements cover sales, gross profit, collections, inventory, outstanding debts, stock reminders and a twelve-month sales chart, with detailed CSV attachments. Reports preserve historical month-end balances.
