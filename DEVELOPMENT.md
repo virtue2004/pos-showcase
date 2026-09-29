@@ -1,5 +1,11 @@
 # Development journal
 
+## Stock welcome and goods-only returns
+
+Management sign-in now opens a dismissible stock summary with a translucent glass-style design, low/zero stock counts, previous supplier contact links and shortcuts to restocking pages. It appears once per sign-in and stays out of the cashier workflow. Owners and account managers can access the stock-alert page.
+
+Blank reorder levels default to two across product creation, new items received with purchases and CSV imports; explicitly saved thresholds remain unchanged. Return screens show services as non-returnable, and server rules reject service or custom-charge refunds while preserving historical records and goods-return reconciliation.
+
 ## Service jobs and custom charges
 
 The SQLite prototype now supports intake records for repair and other custom work, unique job barcodes, customer and company intake slips, deposits, progress tracking and linked final invoices. Variable charges can be checked out alone or alongside goods and fixed-price services.
