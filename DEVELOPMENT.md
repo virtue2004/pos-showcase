@@ -1,5 +1,13 @@
 # Development journal
 
+## Service jobs and custom charges
+
+The SQLite prototype now supports intake records for repair and other custom work, unique job barcodes, customer and company intake slips, deposits, progress tracking and linked final invoices. Variable charges can be checked out alone or alongside goods and fixed-price services.
+
+Owners control staff access. Deposits are tracked separately from sales revenue and applied once at final checkout; outstanding balances use the existing debtor workflow. Refunds, register reconciliation, staff attribution and full backups preserve the history. Business profiles adapt intake labels for repairs, tailoring, laundry, printing and general services.
+
+Automated domain, persistence and browser checks cover the core workflow, including barcode decoding and PDF generation. Physical device and production workload acceptance remain necessary. These profiles do not claim full industry-specific scheduling or production-management functionality.
+
 ## Bargain visibility
 
 Checkout now gives a non-blocking warning when a bargain exceeds the configured reduction threshold. Every completed bargain below the normal total appears in management notifications, with operator, customer and payment context; larger reductions are highlighted. Receipt barcodes remain available without customer-facing scanning instructions. Domain and browser checks cover notification visibility, warning behavior and credit balances.
