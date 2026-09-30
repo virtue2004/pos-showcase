@@ -1,5 +1,9 @@
 # Development journal
 
+## Compact navigation
+
+The desktop sidebar can collapse to an icon strip while keeping stock and notification badges visible. The preference is remembered on the device. Brand and business-name shortcuts return to the permitted home screen, and the mobile navigation drawer remains available.
+
 ## Stock welcome and goods-only returns
 
 Management sign-in now opens a dismissible stock summary with a translucent glass-style design, low/zero stock counts, previous supplier contact links and shortcuts to restocking pages. It appears once per sign-in and stays out of the cashier workflow. Owners and account managers can access the stock-alert page.
