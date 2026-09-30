@@ -1,5 +1,9 @@
 # Development journal
 
+## Product-specific restocking shortcuts
+
+Low-stock notifications now open the selected product in Stock alerts, expand previous supplier contacts and briefly highlight the product. Each product offers a Receive stock shortcut with the item preselected; suppliers remain optional. Mobile stock alerts display as readable product cards. Inventory adjustments remain reserved for count corrections.
+
 ## Compact navigation
 
 The desktop sidebar can collapse to an icon strip while keeping stock and notification badges visible. The preference is remembered on the device. Brand and business-name shortcuts return to the permitted home screen, and the mobile navigation drawer remains available.
