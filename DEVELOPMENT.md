@@ -1,5 +1,11 @@
 # Development journal
 
+## Confirmed inter-branch stock movements
+
+Owners and branch managers can request inventory transfers. The source manager confirms dispatch and the destination manager confirms receipt using exact product codes and counted quantities. Goods remain visibly in transit between confirmations, with stock movements, weighted costs and staff acknowledgements retained in backups. Local tests cover authorization, retry safety, reconciliation and desktop/mobile workflows.
+
+Single-workspace branch views now hide unrelated cards. Notifications prioritize business events, while routine edits remain in the activity log. Previous-day registers require an explicit close-or-continue decision, and Nigerian local/international phone formats resolve consistently. Owners choose a branch when receiving new deliveries; managers remain scoped to their assigned branch. Production network, workload and hardware acceptance remain outstanding.
+
 ## Branch workspaces and reviewed debt reminders
 
 The SQLite runtime now supports separate branch catalogs, stock, customers, suppliers, debts, jobs and registers within one company deployment. Owners can use a combined view or filter by branch, create branches, assign managers, review branch activity and contact managers. Managers can manage sales reps only within their assigned branch. Receipts identify the branch, while receipt numbers and staff IDs remain unique across the company.
