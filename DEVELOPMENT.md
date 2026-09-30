@@ -1,5 +1,11 @@
 # Development journal
 
+## Notification filters and workspace preferences
+
+Notifications can be narrowed to low stock, out-of-stock products, bargained sales, large reductions, and bargains with unpaid balances. Product entry suggests similar existing names and rejects duplicate names regardless of capitalisation or extra spaces, while allowing distinct variations. Validation also runs on the server.
+
+The sidebar control stays in a fixed screen position, with animated open/close icons. A light/dark switch remembers the device preference. Local checks cover product validation, imports, desktop/mobile navigation, filtering, and responsive layout using fictional records.
+
 ## Product-specific restocking shortcuts
 
 Low-stock notifications now open the selected product in Stock alerts, expand previous supplier contacts and briefly highlight the product. Each product offers a Receive stock shortcut with the item preselected; suppliers remain optional. Mobile stock alerts display as readable product cards. Inventory adjustments remain reserved for count corrections.
