@@ -1,5 +1,13 @@
 # Development journal
 
+## Branch workspaces and reviewed debt reminders
+
+The SQLite runtime now supports separate branch catalogs, stock, customers, suppliers, debts, jobs and registers within one company deployment. Owners can use a combined view or filter by branch, create branches, assign managers, review branch activity and contact managers. Managers can manage sales reps only within their assigned branch. Receipts identify the branch, while receipt numbers and staff IDs remain unique across the company.
+
+Connected browsers receive authenticated live-update signals. Debt alerts use an Owner-configurable age threshold, and management can review individual WhatsApp or email drafts, including a queue of selected debtors. The software records prepared reminders; external messaging applications perform delivery. No customer messages were sent during verification.
+
+Local checks cover cross-branch access rejection, stock/debt reconciliation, staff restrictions, backup/restore, live updates, and desktop/mobile workflows using fictional records. Existing single-store records stay in Main branch. Remote locations require an online central server; production network, hardware and workload acceptance remain necessary.
+
 ## Notification filters and workspace preferences
 
 Notifications can be narrowed to low stock, out-of-stock products, bargained sales, large reductions, and bargains with unpaid balances. Product entry suggests similar existing names and rejects duplicate names regardless of capitalisation or extra spaces, while allowing distinct variations. Validation also runs on the server.
