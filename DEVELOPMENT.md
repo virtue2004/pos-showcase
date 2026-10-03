@@ -1,5 +1,11 @@
 # Development journal
 
+## Expanded job intake and billing
+
+The job workflow now has grouped responsive intake forms, editable descriptive details, fixed job identifiers, external-worker assignment, manual dates, progress filtering and overdue indicators. Saved work charges and itemised reimbursable expenses flow automatically into the final invoice, with existing partial deposits and balance repayments preserved. Unsuccessful jobs support reasoned status changes and unused-deposit refunds.
+
+Issued invoices retain their historical amounts and item identification. Expense corrections, assignment and edits remain auditable, and the new records survive encrypted backup/restore. Local domain, SQLite and desktop/mobile browser checks cover billing, permissions, refunds and recovery. Physical-device and production acceptance remain required.
+
 ## Confirmed inter-branch stock movements
 
 Owners and branch managers can request inventory transfers. The source manager confirms dispatch and the destination manager confirms receipt using exact product codes and counted quantities. Goods remain visibly in transit between confirmations, with stock movements, weighted costs and staff acknowledgements retained in backups. Local tests cover authorization, retry safety, reconciliation and desktop/mobile workflows.
