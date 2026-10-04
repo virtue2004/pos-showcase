@@ -1,5 +1,11 @@
 # Development journal
 
+## Branded statements and everyday usability
+
+Monthly statements now present headline KPIs, sales trends and business updates in a dashboard format, with PDF export from the preview. Company logo uploads flow into navigation, receipts, job slips and statements. Product descriptions give attendants useful item details.
+
+Staff can update their own profile without changing their assigned identity or permissions. Job rows show coloured progress badges, payment figures and a completed-and-paid indicator. Local tests cover authorization, persistence, financial reconciliation and browser workflows; live email-client rendering remains an acceptance check.
+
 ## Job shortcuts and clearer payment reporting
 
 Job rows now expose a small set of accessible quick-action icons appropriate to their stage. New job references include the creation year and month plus a company-wide sequence, while existing references and barcodes are preserved.
