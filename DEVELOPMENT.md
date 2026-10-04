@@ -1,5 +1,11 @@
 # Development journal
 
+## Job shortcuts and clearer payment reporting
+
+Job rows now expose a small set of accessible quick-action icons appropriate to their stage. New job references include the creation year and month plus a company-wide sequence, while existing references and barcodes are preserved.
+
+Overview separates sales revenue from money received, with job/other-sale and progress filters. Deposits, checkout payments, later repayments and refunds reconcile without counting applied deposits twice. The PDF export includes a payment reconciliation page. Local checks cover numbering boundaries, branch uniqueness, accounting and browser workflows.
+
 ## Expanded job intake and billing
 
 The job workflow now has grouped responsive intake forms, editable descriptive details, fixed job identifiers, external-worker assignment, manual dates, progress filtering and overdue indicators. Saved work charges and itemised reimbursable expenses flow automatically into the final invoice, with existing partial deposits and balance repayments preserved. Unsuccessful jobs support reasoned status changes and unused-deposit refunds.
