@@ -1,5 +1,11 @@
 # Development journal
 
+## Branch operations and actionable reminders
+
+The Owner team list now covers accounts across branches, with role and assignment editing. Empty branches can be removed; branches with history use a guarded retirement workflow that preserves records and requires unresolved operations to be cleared first.
+
+Sign-in reminders bring together low stock, debtors and due jobs, with branch-scoped manager access. Jobs have due counters, clearer customer/worker details and live deposit balance previews. Intake printing uses one structured acknowledgement. Supplier contact shortcuts and wrapping company names improve daily navigation. Local validation covers isolation, history preservation, safe retries and browser workflows.
+
 ## Branded statements and everyday usability
 
 Monthly statements now present headline KPIs, sales trends and business updates in a dashboard format, with PDF export from the preview. Company logo uploads flow into navigation, receipts, job slips and statements. Product descriptions give attendants useful item details.
