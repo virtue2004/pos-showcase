@@ -187,3 +187,5 @@ Backend checks cover transaction integrity, permissions, retry protection, and c
 Google Apps Script serves a custom HTML/CSS/JavaScript interface backed by Google Sheets. Application source is maintained in a private repository; this public showcase contains curated progress and sanitized previews.
 
 The sign-in screen now uses an emerald glass design with flowing background shapes, responsive mobile/tablet/desktop layouts, password visibility controls and a benefits panel on wider screens. Browser checks cover responsive overflow, password visibility and successful test sign-in.
+
+A new green shopping-bag/check app mark replaces the placeholder logo. The web app now includes standalone installation metadata, home-screen icons, an installation card and browser-specific guidance. A static reconnect page handles unavailable servers; offline checkout and automatic transaction synchronisation are not implemented. Production installation requires HTTPS. Physical-device installation remains an acceptance check.
